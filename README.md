@@ -1,2 +1,6 @@
-# svelte_applicants
-testing repo for hiring process 
+## Readme 
+
+
+Install `npm -i`
+
+Run `npm run dev`
