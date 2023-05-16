@@ -23,7 +23,7 @@
 			The figma file can be found 
 			<a class="underline" href="https://www.figma.com/file/elhS7rfboC3aVdUoa19lJ5/tradingbro.io-(2)?type=design&node-id=101%3A2934&t=8BraDmbdqSoVPbAr-1">Here</a>
 
-			<p class="">The tasks can be found here <a href=""></a> </p>
+			<p class="">The tasks can be found at the readme of the repo <a href=""></a> </p>
 
 			<p class="mt-4 mb-8">Fork the repo and let me know once you submitted your branch</p>
 			<hr>

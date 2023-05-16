@@ -7,14 +7,15 @@ Run `npm run dev`
 
 
 
+
 ## Tasks 
 
-- Button 1 
+- Button 1 `src/routes/popup.svelte`
   Figma at page 8-9, This is the style that needs to be converted
-- Button 2 
+- Button 2  `src/routes/popup.svelte`
   Figma at page 8-9, This is the style that needs to be converted
 
-- Popup
+- Popup `src/routes/popup.svelte`
     Figma at page 8-9, This is the style that needs to be converted 
 
 
