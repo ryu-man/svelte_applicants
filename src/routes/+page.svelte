@@ -2,10 +2,18 @@
 	import { LightSwitch } from '@skeletonlabs/skeleton';
 	import FilterButton from './filterButton.svelte';
 
+
+	import { clickOutside } from './clickOutside';
 	import Popup from './popup.svelte';
+	let showPopup: bool = true
+
+	function handleClickEvent() {
+		showPopup = false;
+		console.log("Clicked outside the node")
+	}
 </script>
 
-<div class="container card pt-8 mt-4      mx-auto flex flex-col justify-center items-center">
+<div class="container card pt-8 mt-4  max-w-[50%]      mx-auto flex flex-col justify-center items-center">
 	<div class=" mb-8 space-y-5">
 		<h1 class="h1">Tradingbro.io Application</h1>
 
@@ -39,11 +47,17 @@
 		</div>
 
 		<hr>
-		<h2 class=" my-4 text-2xl">
+		<h2  class=" my-4 text-2xl">
 			Popup
 		</h2>
 
-		<Popup />
+
+		{#if showPopup}
+		<div use:clickOutside={handleClickEvent}
+		 class="a">
+			<Popup />
+		</div>
+		{/if}
 
 
 

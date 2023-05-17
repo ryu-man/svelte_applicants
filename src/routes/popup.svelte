@@ -5,6 +5,7 @@
 	export let country: string = 'SellerName';
 	export let site: string = 'SellerName';
 
+	import { clickOutside } from './clickOutside';
 
     const list = { 
         "Trading Type": "Trading Type",
