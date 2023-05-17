@@ -33,7 +33,7 @@
 				<div class="text-lg font-bold">Fastest Funds to Most Banks</div>
 				<div class="">
 					<span class="text-[#FB5858]">Offline</span>
-					<span class="text-[#6C6C85]">(Last seen: 14:32 02.05.2023)</span>
+					<span class="text-[#6C6C85] text-opacity-50">(Last seen: 14:32 02.05.2023)</span>
 				</div>
 			</div>
 		</div>
@@ -131,7 +131,7 @@
 				</button>
 			</div>
 
-			<div class="text-gray-400">
+			<div class="text-[#6C6C85] text-opacity-50">
 				Information gathered from: <a class="underline" href="#"
 					>localcoinswap</a
 				>
